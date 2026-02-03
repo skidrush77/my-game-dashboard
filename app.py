@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # 웹사이트 제목 설정
-st.title('내 게임 데이터 대시보드')
+st.title('로얄호텔 퍼널분석')
 
 # 데이터 소스 URL
 DATA_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSykU-SnMVdxJvYHRPapTJFWUcgjHFUMfL4t48poiYqpfaVGCveH2l7B_I6XCXjRTdEZy5gTdm2sZiw/pub?gid=1019645524&single=true&output=csv'
@@ -43,3 +43,4 @@ try:
 
 except Exception as e:
     st.error(f"데이터를 불러오는 중 오류가 발생했습니다: {e}")
+
